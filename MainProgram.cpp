@@ -1,5 +1,30 @@
-
-
+/************************************************************
+CMP2003 – Data Structures
+Lab: Binary Search Tree (BST) – Traversals & Basic Stats
+Student Skeleton (fill the TODOs)
+Time: ~50 minutes
+ 
+GOAL
+  - Implement a Binary Search Tree that supports:
+      1) insert(x)
+      2) inorderTraversal()
+      3) preorderTraversal()
+      4) postorderTraversal()
+      5) treeHeight()
+      6) treeNodeCount()
+      7) treeLeavesCount()
+ 
+INPUT
+  - User enters integers ending with -999 sentinel.
+ 
+RULES / NOTES
+  - Duplicates: insert them into the RIGHT subtree.
+  - Height definition for this lab:
+      * empty tree => height = 0
+      * single node => height = 1
+  - Traversal format: print values separated by a single space.
+ 
+************************************************************/
  
 #include <iostream>
 using namespace std;
